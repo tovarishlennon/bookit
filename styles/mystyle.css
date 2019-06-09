@@ -1,0 +1,570 @@
+/*Give style to the header 'This
+      web site was created to fulfill Web Technologies module’s requirements and does not represent actual
+      company or service.*/
+#topcol {
+	text-align: center;
+	color: white;
+	margin-bottom: 0;
+	font-size: 16px;
+	background-color: rgb(248, 30, 31); 
+}
+
+/*give font color for the navbar */
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+/*give text position and appropriate size for jumbotron*/
+.jumbotron {
+	text-align: center;
+	height: 400px;
+	margin-bottom: 0px;
+	padding-top: 250px;
+	
+}
+
+/*give padding for grid (jumbotron)*/
+.col-lg-12, .col-md-12, .col-sm-12 , .col-xs-12 {
+	padding: 0;
+
+}
+
+/*give padding for paragraph in about page in order to fit the in row*/
+.paragraph-in-about {
+	padding-top: 195px;
+	color: white;
+}
+
+/*give style for text for h1 inside jumbotron*/
+.jumbotron h1 {
+	text-transform: capitalize;
+	font-size: 50px;
+}
+
+/*give wifth for hr line for beauty*/
+hr {
+	width: 25%;
+}
+
+
+.row {
+	margin: 0;
+}
+
+/*give style, position and mainly background image for first jumbotron inside index.html page */
+.marg1 {
+	background-image: url(../img/img2.jpg);
+	background-position: bottom;;
+	background-size: cover;
+	text-align: center;
+	margin-top: 0;
+	height: 700px;
+	color: white;
+	font-size: 60px;
+	font-family: 'Mukta Mahee'
+
+}
+
+/*give style, position and mainly background image for second jumbotron inside index.html page */ 
+
+.marg2 {background-image: url(../img/img3.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	height: 770px;
+	color: white;
+	font-family: 'Mukta Mahee'
+
+}
+
+/*give style, position and mainly background image for third jumbotron inside index.html page*/
+.marg3 {
+
+	background-image: url(../img/img4.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	height: 770px;
+	padding-bottom: 350px;
+	color: white;
+	font-family: 'Mukta Mahee'
+
+
+}
+
+/*give font style for all bodies inside all html documents*/
+body {
+	font-size: 11px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+/*give font style and mainly font color for all h1 and p inside html documents*/
+h1, p {
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	color: white;
+	margin: 0;
+}
+
+/*create class and give position, color, style for all anchor elements inside footer*/
+.footPos {
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+/*give pseudo-class specific color and text decoration when cursor is hovered to all anchors*/
+a:hover {
+	color: #848484;
+	text-decoration: none;
+}
+
+/*give decoration to the already hovered link in order to exclude any underline*/
+a:link {
+	text-decoration: none;
+}
+
+/*give black backgroud color for footer in order to fit with navbar*/
+footer {
+	background-color: black;
+	height: 200px;
+}
+
+/*create an id for logo inside footer in order to fit with navbar and to make it white with appropriate spacing */
+#logoFoot {
+	color: white;
+	margin-top: 0;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
+span {
+	color: white;
+}
+
+
+a { 
+color: white;
+padding: 10px;
+ }
+
+/*i took this classes to override the code of bootstrap */
+ .navbar-inverse .navbar-nav > li > a {
+ 	color: gray;
+ }
+
+/*created specific id for my student ID in the footer*/
+#myId {
+	color: white;
+	font-size: 20px;
+	margin-bottom: 0;
+	padding: 15px;
+}
+
+/*give zero padding for container*/
+.container {
+	padding: 0;
+}
+
+/*i took these classes for overriding the code of bootstrap*/
+button, .btn, .btn-info, .btn-lg {
+	background-color: rgba(2, 199, 190,0.0);
+	border: 2px solid white;
+	border-radius: 25px;
+}
+
+/*give a backgroud image and other styles for the first jumbotron inside about.html */
+
+.marg4 {
+	background-image: url(../img/img5.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	position: relative;
+	height: 100%;
+	padding-bottom: 250px;
+	padding-left: 50px;
+	padding-right: 50px;
+	color: white;
+	filter: brightness(75%);
+}
+
+
+/*give a backgroud image and other styles for the first jumbotron inside cinema.html*/
+.marg6 {
+	background-image: url(../img/img11.jpg);
+	background-position: 20% 80%;
+	background-size: cover;
+	margin-top: 73px;
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	height: 600px;
+}
+
+/*give some transparency with appropriate position for jumbotron inside help.html*/
+.marg7 {
+	margin-top: 400px;
+	margin-bottom: 200px;
+	padding-top: 48px;
+	background-color: rgba(142, 142, 142, 0.1)
+
+
+
+}
+
+
+
+/*give the font color for h1 inside the form*/
+#hColor1 {
+	color: white;
+	padding-bottom: 10%;
+	margin-top: 0;
+}
+
+/*i took this classes for overriding bootstrap code and gave some changes for buttons*/
+.btn, .btn-default {
+	margin: 25px;
+	color: white;
+}
+
+/*give mainly background color for grid jumbotron (left pic) inside about.html*/
+#jumHalf-1 {
+	background-image: url(../img/img7.jpg);
+	background-position: 20% 80%;
+	background-size: cover;
+	padding: 0;
+}
+
+/*give mainly background color for grid jumbotron (right pic) inside about.html*/
+#jumHalf-2 {
+	background-image: url(../img/img8.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 0;
+}
+
+/*i took these clases in order to fit grid (jumbotrons) inside the about.html page*/
+.col-lg-6, .col-md-6, .col-sm-6, .col-xs-6 {
+	padding: 0;
+}
+
+
+
+.letterColor {
+	color: white;
+}
+
+/*mainly give position for background image inside contact.html */
+.pad-cont {
+	margin-top: 70px;
+	height: 360px;
+	
+	background-image: url(../img/img10.jpg);
+	background-position: 20% 80%;
+	background-size: cover;
+
+}
+
+/* give a color to contact row*/
+.span-col {
+	color: black;
+	text-align: left;
+	font-size: 16px;
+}
+
+/*give padding-top for row of col-lg-10*/
+.pad-col-10 {
+
+	padding-top: 30px;
+	text-align: center;
+}
+
+/*give appropriate position for map inside contact.html */
+iframe {
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	
+}
+
+/*created class and gave position for the list (left-side of contact.html)*/
+.list-group {
+	padding-top: 45px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/*created class and gave some gray shade for the body inside contact.html*/
+.body-contact {
+	background-color: rgb(251, 251, 251);
+}
+
+/*creted a class and changed color with font size inside  list group (contact.html, left side)*/
+.contact-a {
+	color: red;
+	font-size: 13px;
+}
+
+
+ .h1-p-cinema {
+	color: white;
+	font-size: 11px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+
+
+}
+
+/*give some font style for h1 inside cinema.html */
+#h1-cinema {
+	font-size: 28px;
+	font-weight: 700;
+	font-family: 'Vollkorn', serif;
+	color: rgb(247, 247, 247)
+
+}
+
+/*give some font styles for paragraph inside cinema.html*/
+.p-cinema {
+	font-size: 22px;
+	font-family: 'Vollkorn', serif;
+	color: rgb(247, 247, 247)
+
+}
+
+
+/*color font size of location in contact page*/
+.fa-map-marker-alt {
+	color: red;
+	font-size: 18px;
+}
+
+/*color and size of phone icon in contact page*/
+
+.fa-phone-square {
+	color: green;
+	font-size: 18px;
+}
+
+/*color and size of envelope icon in contact page*/
+
+.fa-envelope {
+	color: purple;
+	font-size: 18px;
+}
+
+/*color and size of fax icon on contact page*/
+
+.fa-fax {
+	color: orange;
+	font-size: 18px;
+}
+
+/*give styles for bootstrap thumbnail in order to override the code*/
+.thumbnail {
+	margin: 25px;
+	color: black;
+	font-size: 14px;
+	min-height: 874px;
+}
+
+/*mainly give font size for paragraph inside thumbnail of cinema.html*/
+.font-size-cinema {
+	color: black;
+	font-size: 18px;
+	text-align: center;
+}
+
+/*here, I override the code of bootstrap button*/
+.btn-primary {
+	color: black;
+	border: 1px solid black;
+	font-size: 18px;
+}
+
+/*give styles for h1 inside thumbnail of cinema.html */
+.h1-cinema-thumbnail {
+	font-weight: 700;
+	text-align: center;
+}
+
+
+.item {
+	background-size: cover;
+	background-position: center;
+}
+
+/*created class in order to use it always make font color black */
+.col-black {
+	color: black;
+	margin: 30px 10px 40px 10px;
+	font-size: 18px;
+}
+
+/*created id to give white color for button in index.html*/
+#colorOfButtonInIdexHtml {
+	color: white;
+}
+
+/*created id to give white color for button in index.html*/
+#colorOfButtonInIdexHtml-1 {
+	color: white;
+}
+
+/*give color for button inside jumbotron of cinema.html*/
+#colorOfButtonInCinemaBohemian {
+	color: white;
+
+	border-width: 2px;
+
+}
+
+/*give position for carousel*/
+.carousel {
+	margin-top: 70px;
+
+}
+
+/*give color for h1 inside about.html*/
+.h1InAboutSection {
+	color: white;
+	padding-top: 60px;
+
+}
+
+/*/*give position for ul*/
+#ulPosition {
+	text-align: center;
+}
+
+/*give styles for button inside help.html*/
+#borderOfButtonInPopover {
+	border: 1px solid black;
+}
+
+/*give position for form inside help.html*/
+.formClass-2 {
+	padding: 50px;
+}
+
+/*give margin top for fotter inside help.html*/
+#footerInHelp {
+	margin-top:400px;
+
+}
+
+/*give mainly background image and position  inside help.html*/
+#bodyHelp {
+	background-image: url(../img/img29.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+
+}
+
+/*give styles for button inside help.html*/
+.buttonHelp-1 {
+	color: white;
+	border: 2px solid white;
+	font-size: 28px;
+
+}
+
+/*give font color for word 'source' inside cinema.html*/
+.sourceCinema {
+	color: blue;
+	text-decoration: underline;
+}
+
+
+.panel, .panel-default {
+	margin-right: 200px;
+	margin-left: 200px;
+	margin-top: 100px;
+}
+
+/*give font family for theatre.html*/
+.fontFamilyTheatre {
+	color: black;
+	font-family: 'KoHo', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: left;
+	word-spacing: 3px;
+	margin: 3px;
+
+}
+
+/*give font family for all paragraphs inside theatre.html*/
+.fontFamilyParagraphTheatre {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+/*give background color for head row inside table of theatre.html*/
+th {
+ 	background-color: #ffda7f;
+}
+
+table {
+	font-size: 20px;
+}
+
+/*give position and border style for thumbnail inside theatre.html*/
+#thumbnail-theatre {
+margin-top: 75px;
+border-color: white;
+
+
+}
+
+/*give margin for class media inside theatre.html*/
+.media {
+	margin: 25px;
+}
+
+h2 {
+	text-align: center;
+}
+
+/*inside theatre.html*/
+#paragraphFeedback {
+	text-align: left;
+
+}
+
+/*give styles for inputs inside theatre.html*/
+#username {
+	border-radius: 8px;
+	margin-left: 20px;
+	border: 1px solid black;
+}
+/*give styles for inputs inside theatre.html*/
+#comment {
+	border-radius: 8px;
+	margin-left: 20px;
+	border: 1px solid black;
+}
+
+
+.inputs-controls {
+	text-align: center;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+/*give margin left for comment inside theatre.html*/
+.comment-input {
+	margin-left: 30px;
+	}
+
+/*make some styles with border inside cinema.html Bohemian*/
+.col-btn {
+	border: 1px solid white;
+}
